@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resumen de introducción a la fibra óptica, sus aplicaciones, tipos y medidas de seguridad.">
+  <title>Resumen: Introducción a la fibra óptica</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: #000; color: #fff;
+      font-family: Arial, Helvetica, sans-serif; line-height: 1.7;
+    }
+    header {
+      padding: 48px 20px 34px; text-align: center;
+      border-bottom: 1px solid #555;
+      background: #050505;
+    }
+    header p { color: #ddd; max-width: 760px; margin: 12px auto 0; }
+    main { width: min(900px, 92%); margin: 30px auto 60px; }
+    section {
+      margin: 22px 0; padding: 22px;
+      border: 1px solid #555; border-radius: 12px;
+      background: #090909;
+    }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.7rem); margin: 0; }
+    h2 { margin-top: 0; font-size: 1.45rem; }
+    h3 { margin-bottom: 6px; }
+    p, li { color: #f2f2f2; }
+    strong { color: #fff; }
+    ul, ol { padding-left: 24px; }
+    li { margin: 7px 0; }
+    .notice {
+      border-left: 4px solid #fff; padding: 12px 16px;
+      background: #151515; margin-top: 14px;
+    }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border: 1px solid #666; padding: 10px; text-align: left; }
+    th { background: #202020; color: #fff; }
+    td { color: #eee; }
+    a { color: #fff; }
+    footer { text-align: center; color: #ccc; padding: 25px 15px; border-top: 1px solid #555; }
+    @media (max-width: 600px) {
+      section { padding: 17px; }
+      header { padding-top: 35px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Introducción a la fibra óptica</h1>
+    <p>Resumen de funcionamiento, aplicaciones, ventajas, tipos, conectores y medidas de protección y seguridad.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. ¿Qué es y cómo funciona?</h2>
+      <p>La <strong>fibra óptica</strong> es un medio de transmisión que utiliza filamentos muy finos y flexibles de vidrio o plástico para transportar información mediante pulsos de luz. La luz se mantiene dentro de la fibra gracias al fenómeno de <strong>reflexión interna total</strong>, lo que permite transmitir datos a grandes distancias y con poca pérdida de señal.</p>
+      <ol>
+        <li><strong>Generación:</strong> la información se convierte en una señal que controla una fuente de luz.</li>
+        <li><strong>Transmisión:</strong> los pulsos luminosos viajan por el interior de la fibra.</li>
+        <li><strong>Recepción:</strong> un fotodetector convierte la luz recibida en una señal eléctrica.</li>
+        <li><strong>Amplificación:</strong> si hace falta, se compensa la pérdida de señal.</li>
+        <li><strong>Procesamiento y entrega:</strong> el equipo receptor recupera la información y la envía al dispositivo de destino.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>2. Aplicaciones principales</h2>
+      <ul>
+        <li><strong>Telecomunicaciones:</strong> Internet de alta velocidad, telefonía, video y conexión entre centros de datos.</li>
+        <li><strong>Medicina:</strong> endoscopios, iluminación e instrumentos de diagnóstico.</li>
+        <li><strong>Industria:</strong> supervisión y control de procesos en ambientes difíciles o peligrosos.</li>
+        <li><strong>Defensa y seguridad:</strong> comunicaciones y vigilancia.</li>
+        <li><strong>Investigación científica:</strong> sensores y mediciones de temperatura, presión, luz y vibraciones.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Ventajas y desventajas</h2>
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Permite transmitir datos a gran velocidad y con mucha capacidad.</li>
+        <li>Tiene baja atenuación, por lo que resulta útil para largas distancias.</li>
+        <li>No sufre interferencias electromagnéticas.</li>
+        <li>Es difícil de interceptar sin provocar alteraciones detectables.</li>
+        <li>No se oxida y suele requerir poco mantenimiento.</li>
+      </ul>
+      <h3>Desventajas</h3>
+      <ul>
+        <li>La instalación y reparación pueden ser costosas y complejas.</li>
+        <li>Es delicada ante dobleces excesivos, golpes, vibraciones y tirones.</li>
+        <li>Necesita herramientas y equipos especializados.</li>
+        <li>La señal puede atenuarse con la distancia y requerir equipos adecuados.</li>
+        <li>Un corte físico puede interrumpir el servicio de una parte de la red.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Tipos de fibra óptica</h2>
+      <h3>Monomodo</h3>
+      <p>Su núcleo es muy pequeño (aproximadamente 8–10 micrómetros) y permite que se propague un modo de luz. Presenta baja atenuación y se utiliza principalmente en enlaces de larga distancia y alta velocidad. Las categorías habituales son <strong>OS1</strong> (principalmente interior) y <strong>OS2</strong> (principalmente exterior).</p>
+      <h3>Multimodo</h3>
+      <p>Su núcleo es más grande (habitualmente 50 o 62,5 micrómetros) y permite varios modos o trayectorias de luz. Se utiliza sobre todo en distancias cortas, como edificios y centros de datos. Sus categorías son <strong>OM1, OM2, OM3, OM4 y OM5</strong>.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Tipo</th><th>Uso habitual</th><th>Característica general</th></tr></thead>
+          <tbody>
+            <tr><td>Monomodo (OS1/OS2)</td><td>Largas distancias</td><td>Menor atenuación y gran alcance</td></tr>
+            <tr><td>Multimodo (OM1–OM5)</td><td>Distancias cortas o medias</td><td>Núcleo mayor y varios modos de propagación</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="notice">La elección depende de la distancia, la velocidad requerida, los equipos y el presupuesto de la instalación.</p>
+    </section>
+
+    <section>
+      <h2>5. Formas de presentación</h2>
+      <ul>
+        <li><strong>Cables:</strong> agrupan y protegen una o varias fibras; pueden ser de tubo ajustado o de tubo holgado.</li>
+        <li><strong>Conectores:</strong> permiten conectar la fibra a equipos u otros tramos.</li>
+        <li><strong>Acopladores:</strong> unen dos conexiones ópticas.</li>
+        <li><strong>Pigtails:</strong> pequeños tramos con conector en un extremo y fibra libre en el otro.</li>
+        <li><strong>Splitters:</strong> dividen una señal óptica en varias salidas, por ejemplo en redes PON.</li>
+        <li><strong>Sensores:</strong> detectan variables como temperatura, presión y vibración.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Tipos de conectores</h2>
+      <ul>
+        <li><strong>ST:</strong> con fijación tipo bayoneta.</li>
+        <li><strong>SC:</strong> con mecanismo de conexión push-pull.</li>
+        <li><strong>LC:</strong> conector compacto, usado en conexiones de alta densidad.</li>
+        <li><strong>MTRJ:</strong> integra dos fibras en un solo conector.</li>
+        <li><strong>FC:</strong> con fijación roscada.</li>
+        <li><strong>E2000:</strong> conector de precisión con mecanismo push-pull.</li>
+      </ul>
+      <p>El conector debe elegirse según el equipo, el tipo de fibra y las necesidades de la instalación.</p>
+    </section>
+
+    <section>
+      <h2>7. Medidas de protección y seguridad</h2>
+      <ul>
+        <li><strong>Corte y pelado:</strong> usar gafas y guantes adecuados; las herramientas y los refuerzos del cable pueden producir cortes.</li>
+        <li><strong>Restos de fibra:</strong> recoger los fragmentos con pinzas o cinta y guardarlos en un recipiente cerrado y etiquetado. Nunca retirarlos con los dedos.</li>
+        <li><strong>Tensión del cable:</strong> trabajar con cuidado durante el tendido; los elementos de refuerzo pueden liberar energía y provocar golpes o latigazos.</li>
+        <li><strong>Radiación láser:</strong> apagar las fuentes antes de manipular la fibra. Nunca mirar directamente el extremo de una fibra ni apuntar una fuente láser hacia los ojos.</li>
+        <li><strong>Inspección:</strong> revisar conectores con un microscopio de luz blanca y únicamente cuando estén desconectados de la fuente óptica.</li>
+        <li><strong>Limpieza:</strong> algunos disolventes, como el alcohol isopropílico, pueden irritar o ser inflamables. Usarlos con ventilación y siguiendo las indicaciones de seguridad del producto.</li>
+      </ul>
+      <div class="notice">
+        <strong>Importante:</strong> la luz utilizada en fibra óptica puede ser invisible y aun así causar lesiones oculares. Nunca se debe mirar una fibra activa.
+      </div>
+      <h3>Clases de láser</h3>
+      <p>La clasificación de seguridad considera el riesgo de exposición. En términos generales, las clases van desde la <strong>Clase 1</strong>, segura en condiciones previsibles de uso, hasta la <strong>Clase 4</strong>, que puede causar lesiones graves en ojos y piel e incluso incendios. Siempre se deben respetar las etiquetas y las instrucciones del equipo.</p>
+    </section>
+
+    <section>
+      <h2>8. Futuro de la fibra óptica</h2>
+      <p>La tecnología continúa avanzando para aumentar la velocidad, la capacidad y la eficiencia. Se investigan nuevas técnicas de multiplexación, fibras de núcleo hueco, nuevos materiales y aplicaciones en medicina, energía, automoción y seguridad. También podrían incorporarse herramientas de inteligencia artificial para optimizar las redes y tecnologías cuánticas para reforzar la seguridad.</p>
+    </section>
+
+    <section>
+      <h2>Conclusión</h2>
+      <p>La fibra óptica es fundamental para las comunicaciones modernas porque permite transmitir grandes cantidades de información a alta velocidad y con pocas interferencias. Para aprovechar sus ventajas, es importante seleccionar el tipo de fibra y los conectores adecuados y, sobre todo, cumplir las medidas de seguridad durante la instalación, manipulación y mantenimiento.</p>
+    </section>
+
+    <section>
+      <h2>Fuente</h2>
+      <p>Resumen elaborado a partir del material: <a href="https://fibra.gonzalonazareno.org/p01_introduccin_a_la_fibra_ptica_y_sus_principales_medidas_de_proteccin_y_seguridad.html" target="_blank" rel="noopener noreferrer">Introducción a la Fibra Óptica y sus principales medidas de protección y seguridad</a>.</p>
+    </section>
+  </main>
+  <footer>Resumen educativo · Fibra óptica</footer>
+</body>
+</html>
